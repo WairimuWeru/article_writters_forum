@@ -1,0 +1,135 @@
+
+
+/* ---------------------- Forms ----------------------- */
+.contwain{
+    margin-top: 11.4rem;
+
+}     
+form .form {
+        margin: 5px 2%;
+        padding: 1rem;
+    }
+    
+    label{
+        margin-bottom: 0.2rem;
+    }
+    input, textarea,select{
+        width: 100%;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    textarea{
+        height: 9rem;
+    }
+    button.btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+    /* ------------x---------- forms ------------x----------- */
+
+/* End of footer and index */
+
+
+/* header */
+header{
+    font-size: .8rem;
+    box-shadow:  0px 0px 10px 0px rgb(117, 82, 103);
+    line-height: 1.2rem;
+    width: 100%;
+}
+
+.nav{    
+    font-size: 1rem;
+    font-family: "consolas";
+    display: block;
+    text-align: center;
+    background-color: rgb(5, 1, 18) ;
+}
+.nav  a{
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: default;
+    border-bottom: dotted 2px rgb(83, 68, 68);
+}
+/* end header */
+
+/* body */
+.intro{
+    margin-top: 13rem;
+    border-radius: 3.5px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 1rem o;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.writer_container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    z-index: -1;
+    box-shadow: 0px 0px 4px 1px rgb(193, 188, 193);
+    margin: 1rem;
+}
+.writer_container img{
+    max-height: 50vh;
+    border-radius: 5px;
+    margin: 6px;
+}
+.writer_container .writer_bio{
+  line-height: 1rem;
+}
+
+/* end homepage */
+
+/* gallery page */
+#home-articles .articles-container {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child, .article_container {
+    /* arsterisis used to make it more flexible */ 
+    grid-template-columns: 1fr;
+    grid-column: 1;
+}
+
+/* end gallery */
+.marginner{
+    margin-top: 10rem;
+}
+@media (max-width: 1000px) {
+.marginner{
+    margin-top: 10rem;
+}
+
+}
+@media (max-width: 500px) {
+    .marginner{
+        margin-top: 12rem;
+    }   
+}
+@media (max-width: 400px) {
+    .marginner{
+        margin-top: 13rem;
+    }  
+    .article_container{
+        font-size: 0.8rem;
+    } 
+    .article_card{
+        height: 23vh;
+    }
+
+}
+
+
