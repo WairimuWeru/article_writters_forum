@@ -127,7 +127,7 @@ header p{
     padding: 1rem o;
     background: #ddd;
     color: rgb(5, 1, 18);
-    height: 400px;
+    /* height: 400px; */
     text-align: center;
     border-radius: 7px;
 
@@ -145,6 +145,7 @@ font-family: 'arial narrow';
     padding-bottom: 20px;
     line-height: 1.6em;
     }
+
 
 .container h3{
     color:rgb(5, 1, 18) ;

@@ -59,14 +59,18 @@ header{
 
 /* body */
 .intro{
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
     border-radius: 3.5px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
     font-size: 1rem;
-    line-height: 1.3rem;
-    padding: 1rem o;
-    background: var(--primary-color);
-    color: #fff;
+    color: rgb(0, 0, 0);
+}
+.intro h1{
+    font-size: 36px;
+    line-height: 0.9em;
+    margin: 3rem 3rem 0 3rem;
+    font-family: 'arial narrow';
+    display:block;
 }
 
 .writer_container{
@@ -86,6 +90,13 @@ header{
 }
 .writer_container .writer_bio{
   line-height: 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.writer_container strong{
+    font-size: 0.9rem;
+justify-content: left;
 }
 
 /* end homepage */
